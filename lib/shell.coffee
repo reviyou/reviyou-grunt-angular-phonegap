@@ -21,7 +21,7 @@ r = (grunt)->
   checkAdb = (err, stdout, sterr, cb)->
     if process.platform is 'win32'
       grunt.log.warn "`grunt phonegap:checkAdb` is not working on Windows"
-      grunt.log.warn ["Help me improving `checkAdb` by emailing me at", "dsimard@azanka.ca".bold].join " "
+      grunt.log.warn ["Help me improving `checkAdb` by emailing me at", "reviyoullc@gmail.com".bold].join " "
       return cb?()
 
     if _target isnt "android"

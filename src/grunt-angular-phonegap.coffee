@@ -30,7 +30,10 @@ module.exports = (grunt)->
 
     grunt.registerTask 'phonegap:build', 'Build for phonegap (use `build:phonegap:[platform]` when not android)', (target="android")->
       grunt.task.run ['build', 'clean:phonegap', 'copy:phonegap', "shell:phonegapBuild:#{target}"]
-    
+ 
+   grunt.registerTask 'phonegap:buildDebug', 'Build for phonegap (use `build:phonegap:[platform]` when not android)', (target="android")->
+      grunt.task.run ['buildDebug', 'clean:phonegap', 'copy:phonegap', "shell:phonegapBuild:#{target}"]
+  
     grunt.registerTask 'phonegap:emulate', 
       'Start the app on an emulator (use --emulator=emulator-name to specify one)', 
       (target="android")->

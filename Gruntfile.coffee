@@ -2,7 +2,7 @@
 # * reviyou-grunt-angular-phonegap
 # * https://github.com/reviyou/reviyou-grunt-angular-phonegap
 # *
-# * Copyright (c) 2013 dsimard
+# * Copyright (c) 2013 reviyou
 # * Licensed under the MIT license.
 # 
 "use strict"

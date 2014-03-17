@@ -5,7 +5,7 @@ _ = require '../node_modules/underscore'
 module.exports = (grunt, target)->
   if target isnt 'android'
     grunt.log.error "Not available for #{target}".red
-    grunt.log.error ["Help me improving this project by emailing me at", "dsimard@azanka.ca".bold].join " "
+    grunt.log.error ["Help me improving this project by emailing me at", "reviyoullc@gmail.com".bold].join " "
 
   # Load emulator from cordova
   emulator = require('./cordova_lib')(grunt, target).req "emulator"
