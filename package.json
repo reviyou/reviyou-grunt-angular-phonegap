@@ -1,7 +1,7 @@
 {
   "name": "reviyou-grunt-angular-phonegap",
   "description": "Combine with yeoman/generator-angular and phonegap to create some magic",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "homepage": "https://github.com/reviyou/reviyou.grunt-angular-phonegap",
   "author": {
     "name": "reviyou",
@@ -22,6 +22,10 @@
     }
   ],
   "main": "Gruntfile.js",
+  "scripts": {
+    "test": "./node_modules/.bin/grunt test",
+    "prepublish": "grunt coffee"
+  }, 
   "engines": {
     "node": ">= 0.8.0"
   },
